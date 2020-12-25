@@ -3,6 +3,9 @@ import { css } from '@emotion/react'
 
 const hello = css`
   color: red;
+  &:nth-child(2n) {
+    color: blue;
+  }
 `
 
 type Props = {
@@ -13,6 +16,7 @@ export const Hello: React.FC<Props> = (props) => {
   const { name } = props
   return (
     <div>
+      <h1 css={hello}>Hello {name}!</h1>
       <h1 css={hello}>Hello {name}!</h1>
     </div>
   )
