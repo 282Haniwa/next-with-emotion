@@ -1,5 +1,5 @@
 {
-  "name": "next-example",
+  "name": "next-with-emotion",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,11 +11,13 @@
     "jest": "jest"
   },
   "dependencies": {
+    "@emotion/react": "^11.1.4",
     "next": "10.0.3",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
   "devDependencies": {
+    "@emotion/babel-preset-css-prop": "^11.0.0",
     "@types/enzyme": "^3.10.8",
     "@types/jest": "^26.0.19",
     "@types/node": "^14.14.14",
